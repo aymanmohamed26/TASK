@@ -1,0 +1,10 @@
+<div class="container mainContainer" [dir]="'dir' |translate">
+  <div class="d-md-flex d-grid justify-content-between chart">
+    <app-chart class="d-md-block d-none"/>
+    <app-cart></app-cart>
+  </div>
+  <div class="row">
+    <app-table />
+    <p-inputSwitch [(ngModel)]="checked" ></p-inputSwitch>
+  </div>
+</div>
